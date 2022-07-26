@@ -32,6 +32,7 @@ create  table CITY
    DEPARTAMENT_ID       integer                        not null,
    COUNTRY_ID           integer                        not null,
    CITY                 varchar(45)                    not null,
+   LATITUDE_CITY        varchar(45)                    not null,
    LONGITUDE_CITY       varchar(45)                    not null,
    ENABLED_CITY         integer                        not null,
    constraint PK_CITY primary key clustered (CITY_ID)
@@ -302,5 +303,3 @@ alter table USER
       references CITY (CITY_ID)
       on update restrict
       on delete restrict;
-
-
