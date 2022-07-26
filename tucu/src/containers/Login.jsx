@@ -9,6 +9,7 @@ const Login = () =>{
             </div>
             <div className="column">
                 <p>este es otro texto</p>
+                <p>este es otro texto</p>
             </div>
         </div>
     )
