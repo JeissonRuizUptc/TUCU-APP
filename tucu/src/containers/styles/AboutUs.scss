@@ -1,0 +1,75 @@
+@import '/src/styles/vars';
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    width: 100%;
+    padding: 8rem 4rem;
+}
+
+.about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.about-image img {
+    display: flex;
+    width: 52rem;
+    height: 50rem;
+    border-radius: 2rem;
+    border-color: #000000 1px;
+    justify-content: center;
+
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 5% 5%;
+}
+
+.about-text h1 {
+    font-size: var(--lg);
+    color: var(--gray-tittle);
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.about-text p {
+    font-size: var(--sm);
+    color: var(--gray-text);
+    text-align: justify;
+}
+
+.about-button{
+    margin-top: 4rem;
+    background-color: var(--yellow-component);
+    color: var(--white);
+    font-weight: var(--bolt-text);
+    border: none;
+    font-size: var(--sm);
+    border-radius: 3rem;
+    height: 5rem;
+    font-weight: bold;
+    width: 20rem;
+    cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    .about-image{
+        display: none;
+    }
+
+    .about-text {
+        width: 100%;
+        margin-top: 5% 2%;
+    }
+
+}

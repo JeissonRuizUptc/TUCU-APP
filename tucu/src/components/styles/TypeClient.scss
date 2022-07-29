@@ -1,0 +1,19 @@
+@import '/src/styles/vars';
+
+.type-target__img img{
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.type-target__text{
+    display: flex;
+    font-size: 1.6rem;
+    color: var(--gray-tittle);
+    text-align: center;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+}

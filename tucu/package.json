@@ -1,22 +1,38 @@
 {
-  "name": "tucu",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
+    "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-jsx": "^1.0.0",
+    "babel-loader": "^8.2.5",
+    "bootstrap": "^5.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.72.1",
+    "webpack-dev-server": "^4.9.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build -r https://jeisonruiz1.github.io/LandingPage-Tucu/"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +53,17 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.54.0"
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "svg-url-loader": "^7.1.1",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.9.2"
   }
 }

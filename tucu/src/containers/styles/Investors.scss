@@ -1,0 +1,23 @@
+@import '/src/styles/vars';
+
+.investors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13rem;
+}
+
+.investors-targets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.investors-title{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    color: var(--gray-tittle);
+    font-size: var(--sm);
+
+}

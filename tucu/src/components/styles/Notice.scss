@@ -1,0 +1,46 @@
+@import '/src/styles/vars';
+
+.notice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+    width: 28rem;
+    height: 35rem;
+}
+.notice-target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem  3rem;
+    justify-content: center;
+    width: 5rem;
+}
+
+.notice-target__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    width: 20rem;
+}
+
+.notice-target h2{
+    color: var(--gray-tittle);
+    text-align: justify;
+    font-size: var(--md);
+}
+
+.notice-target p{
+    color: var(--gray-text);
+    font-size: var(--sm);
+    padding-top: 1.5rem;
+    text-align: justify;
+}
+
+.notice-target__image{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 2rem;
+}

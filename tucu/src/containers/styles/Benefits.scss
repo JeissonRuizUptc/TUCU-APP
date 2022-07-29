@@ -1,0 +1,34 @@
+@import '/src/styles/vars';
+
+
+.benefit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--yellow-component);
+    padding: 5rem 0 ;
+}
+
+.benefit-targets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.benefit-tittle h1{
+    font-size: var(--lg);
+    color: var(--white);
+    padding-bottom: 2rem;
+}
+
+
+@media (max-width: 1250px) {
+
+    .benefit-targets{
+        flex-direction: column;
+    }
+
+}
+    

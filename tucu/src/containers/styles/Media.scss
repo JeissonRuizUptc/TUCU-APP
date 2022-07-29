@@ -1,0 +1,25 @@
+@import '/src/styles/vars';
+
+.media{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem 10rem;
+    width: 100%;
+
+}
+
+.media-targets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.media-title{
+    font-size: var(--sm);
+    color: var(--gray-tittle);
+    font-weight: bold;
+}

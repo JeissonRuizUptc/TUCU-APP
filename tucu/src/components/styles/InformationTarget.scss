@@ -1,0 +1,90 @@
+@import '/src/styles/vars';
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15rem 0rem;
+    width: 100%;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.information-title h1 {
+    font-size: var(--lg);
+    color: var(--gray-tittle);
+}
+
+.information-image {
+    border-radius: 2.5rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    height: 40rem;
+    width: 40rem;
+}
+
+
+.information-text {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+}
+
+
+
+.information-text_paragraph p {
+    font-size: var(--sm);
+    color: var(--gray-text);
+    font-weight: normal;
+    text-align: justify;
+    line-height:1;
+}
+
+.moreInformation-button {
+    background-color: var(--yellow-component);
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    font-size: var(--sm);
+    font-weight: var(--bold-text);
+    border-radius: 3rem;
+    height: 4.2rem;
+    width: 20rem;
+}
+
+
+
+@media (max-width: 850px) {
+  
+    .information-image {
+        display: none;
+    }
+
+    .information-text {
+        display: flex;
+        align-items: center;
+        padding-top: 5rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        justify-content: center;
+        flex-direction: column;
+    
+        width: 100%;
+    }
+}
+    

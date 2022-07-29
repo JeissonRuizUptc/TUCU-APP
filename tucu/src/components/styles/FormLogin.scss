@@ -1,0 +1,109 @@
+@import '/src/styles/vars';
+
+
+.login {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 80%;
+    padding-top: 15rem;
+    margin: 10rem 10rem;
+    margin-bottom: 5rem;
+    background-color: var(--yellow-component);
+}
+
+.login-component {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0;
+    margin-bottom: 4rem;
+}
+
+.login-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-tittle h1 {
+    text-align: center;
+    font-size: var(--lg);
+    color: var(--white);
+}
+
+.login-content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+}
+
+.login-content_info h2 {
+    color: var(--white);
+    font-size: var(--md);
+    width: 60rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.login-content_info p {
+    color: var(--white);
+    padding-top: 3rem;
+    text-align: center;
+    width: 60rem;
+    font-size: var(--sm);
+}
+
+.login-content_form {
+    padding-top: 3rem;
+}
+
+.login-content_form h2 {
+    color: var(--white);
+    font-size: var(--md);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: var(--white);
+    font-size: var(--sm);
+    padding-bottom: 0.5rem;
+}
+
+.form-group input {
+    color: var(--gray-text);
+    font-size: 2.2rem;
+    padding-left: 2rem;
+    border: 3px solid #ccc;
+    width: 45rem;
+    border-radius: 1rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.form-buton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control-text {
+    height: 10rem;
+}
+
+#input-text {
+    height: 10rem;
+}

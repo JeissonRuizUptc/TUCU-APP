@@ -1,0 +1,38 @@
+@import '/src/styles/vars';
+
+.service{
+    margin: 1rem 4rem;
+}
+
+.service-targets__target{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+}
+
+.service-targets__target-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+}
+
+.service-targets__target h2{
+    color: var(--white);
+    font-size: var(--md);
+    padding-top: 2rem;
+}
+
+.service-targets__target p{
+    color: var(--white);
+    font-size: var(--sm);
+    padding-top: 4rem;
+    text-align: justify;
+}
+
+.service-image{
+    width: 22rem;
+    height: 26rem;
+    border-radius: 2rem;
+}
