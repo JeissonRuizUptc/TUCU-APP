@@ -10,12 +10,12 @@ import eligenIMG from '../icons/eligenIMG.png';
 import repartidorIMG from '../icons/repartidorIMG.png';
 import tarifasIMG from '../icons/tarifasIMG.png';
 import Contact from "../containers/Contact";
-import FormLogin from "../components/FormLogin";
+import Header from "../components/Header";
 
 const Home = () => {
     return (
         <div>
-            <FormLogin />
+            <Header/>
             <AboutUs />
             <OurServices />
             <InformationComponent
@@ -31,7 +31,7 @@ const Home = () => {
                 content={"Trabaja con nosotros y obtén TODOS los beneficios de un trabajo formal LEGAL. Puedes generar ingresos extra con un contrato de tiempo incompleto, pero si buscas trabajo de tiempo completo también eres bienvenid@."}
                 urlImage={repartidorIMG}
                 textButton={"Me interesa"} />
-                
+
             <AmountServices title={"Cifras"} />
             <InformationComponent
                 tittle={"Conoce nuestras tarifas"}
