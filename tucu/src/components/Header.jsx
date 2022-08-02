@@ -37,7 +37,10 @@ const Header = () => {
                 <div className="navbar-right">
                     <ul>
                         <li className="navbar-shopping-cart">
-                            <button type="button" className="primary-button login-button">Iniciar Sesion</button>
+                            <a href="/login">
+                                <button type="button" className="primary-button login-button">Iniciar Sesion</button>
+                            </a>
+
                         </li>
                     </ul>
                 </div>

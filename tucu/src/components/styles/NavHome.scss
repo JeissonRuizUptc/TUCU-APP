@@ -1,5 +1,6 @@
 @import '/src/styles/vars';
 
+
 nav {
     background-color: var(--yellow-component);
     height: 7rem;
@@ -11,16 +12,14 @@ nav {
 .navbar {
     display:block;
     justify-content: space-between;
-    padding: 0rem 10rem;
-    align-items: center;
-    position: fixed;
+    align-items: flex-start;
+    position: relative;
     border-bottom: none;
 }
 
 .navbar-items{
     display: flex;
     justify-content: space-between;
-    padding: 0rem 10rem;
     align-items: center;
     border-bottom: none;
 }
@@ -53,13 +52,59 @@ nav {
     display: none;
 }
 
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-left img{
+    margin: 0 2rem;
+}
+
+.navbar-left p{
+    margin: 0 2rem;
+    color: black;
+    font-size: var(--md);
+}
+
 .logo-img {
-    width: 5rem;
+    width: 8rem;
     height: 5rem;
     cursor: pointer;
 }
+.region-img {
+    padding: 0;
+    margin: 0;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+}
 
-.navbar-center ul,
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right-data-user{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.navbar-right-img-user img{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+
+
+
 .navbar-right ul {
     list-style: none;
     padding: 10 10 10 10;
@@ -70,15 +115,6 @@ nav {
     height: 8.5rem;
 }
 
-.navbar-center ul {
-    margin-left: 1.2rem;
-}
-
-.navbar-center a{
-    font-size: 2rem;
-}
-
-.navbar-center ul li a,
 .navbar-right ul li a {
     text-decoration: none;
     color: var(--white);
@@ -86,11 +122,6 @@ nav {
     padding: 0.8rem 2.5rem;
     margin: 0px 40px;
     border-radius: 8px;
-}
-
-.navbar-center ul li a:hover {
-    border: 1px solid var(--white);
-    color: var(--white);
 }
 
 .navbar-right a :hover{

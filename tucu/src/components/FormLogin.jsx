@@ -25,7 +25,9 @@ const FormLogin = () => {
                             </div>
 
                             <div className='form-buton'>
-                                <ButtonCompt className="submit-buton" textButton={"ENTRAR"} />
+                                <a href="/Start">
+                                    <ButtonCompt className="submit-buton" textButton={"ENTRAR"} />
+                                </a>
                             </div>
 
                         </form>

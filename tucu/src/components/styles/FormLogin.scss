@@ -1,12 +1,13 @@
-@import '/src/styles/vars';
+@import "/src/styles/vars";
 
 .login {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 98rem;
-    background-color:var(--yellow-component);
+    height: 200rem;
+    background-color: var(--yellow-component);
     align-items: center;
     justify-content: center;
 }
@@ -21,7 +22,7 @@
     position: static;
     flex-direction: column;
     border-radius: 4rem;
-    width: 110rem;
+    width: 55%;
     height: 70%;
     background-color: var(--white);
 }
@@ -29,7 +30,7 @@
 .login-content {
     display: flex;
     border: 0.5rem solid var(--yellow-component);
-    border-radius:  4rem;
+    border-radius: 4rem;
     flex-direction: row;
     height: 95%;
     width: 95%;
@@ -63,18 +64,17 @@
 .form-group label {
     color: var(--gray-text);
     font-size: var(--sm);
-    padding:  0 5rem;
     padding-bottom: 0.5rem;
-    
+    margin: 0 5rem;
 }
 
 .form-group input {
     color: var(--gray-text);
     font-size: 2.2rem;
-    padding:  0 5rem;
     border: 3px solid #ccc;
     border-radius: 1rem;
     height: 4rem;
+    width: 50rem;
     margin-bottom: 2rem;
 }
 
@@ -83,7 +83,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .login-content_info {
     display: flex;
@@ -94,7 +93,7 @@
     height: 100%;
 }
 
-.login-content_info img{
+.login-content_info img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,11 +103,27 @@
     height: 100%;
 }
 
-
 .form-control-text {
     height: 10rem;
 }
 
 #input-text {
     height: 10rem;
+}
+
+@media (min-width: 1024px) {
+    .login {
+        height: 71.9rem;
+    }
+
+    .form-group input {
+        color: var(--gray-text);
+        font-size: 2.2rem;
+        border: 3px solid #ccc;
+        border-radius: 1rem;
+        height: 4rem;
+        width: 30rem;
+        margin: 0 10rem;
+        margin-bottom: 2rem;
+    }
 }

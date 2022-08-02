@@ -1,17 +1,18 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '../styles/global.scss';
-import Layout from "../containers/Layout";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
-import FormLogin from "../components/FormLogin";
+import Login from "../pages/Login";
+import Start from "../pages/Start";
 
 const App = () => {
   return (
     <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/Login" element={<FormLogin />} />
+          <Route exact path="/Login" element={<Login/>} />
+          <Route exact path="/Start" element={<Start/>} />
           <Route exact path="/NotFound" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
