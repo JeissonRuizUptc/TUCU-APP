@@ -50,11 +50,19 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|gif|svg)$/i,
+                test: /\.css$/i,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                ]
+            },
+            {
+                test: /\.(|eot|ttf|woff|woff2|png|jpg|gif|svg)$/i,
                type:'asset'
             }
         ]
     },
+    
     plugins: [
         new HtmlWebPackPlugin({
             template: './public/index.html',

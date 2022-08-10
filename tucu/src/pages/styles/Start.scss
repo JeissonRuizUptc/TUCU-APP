@@ -1,0 +1,12 @@
+@import '/src/styles/vars';
+
+
+.body-components{
+    display: flex;
+    flex-direction: row;
+}
+
+.deliveryService{
+    display: block;
+    flex-direction: column;
+}
