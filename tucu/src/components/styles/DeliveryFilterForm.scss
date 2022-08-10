@@ -1,6 +1,22 @@
 @import '/src/styles/vars';
 
+.form-filter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .form-filter label{
     font-size: 1.5rem;
     color: black;
+}
+
+.form-filter input{
+    width: 22rem;
+    height: 2rem;
+    margin: 0 5rem;
+}
+
+.form-filter input{
+    font-size: 1.5rem;
 }

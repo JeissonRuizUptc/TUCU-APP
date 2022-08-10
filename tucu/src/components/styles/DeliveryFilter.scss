@@ -5,8 +5,8 @@
 }
 
 .filter-container{
-    width: 100%;
-    height: 25rem;
+    width: 115%;
+    height: 15vh;
     background-color: rgb(204, 204, 204);
     display: flex;
     flex-direction: row;
@@ -26,4 +26,16 @@
     align-items: center;
     align-content: stretch;
     justify-content: center;
+}
+
+.filter-container_button{
+    width: 15rem;
+
+}
+
+.filter-container_button button{
+    margin-top: 0;
+    font-size: 1.5rem;
+    height: 3rem;
+    border-radius: 1rem;
 }
