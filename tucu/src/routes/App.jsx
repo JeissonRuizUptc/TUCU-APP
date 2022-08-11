@@ -10,7 +10,6 @@ const App = () => {
   return (
     <BrowserRouter>
         <Routes>
-          
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Login" element={<Login/>} />
           <Route exact path="/Start" element={<Start/>} />

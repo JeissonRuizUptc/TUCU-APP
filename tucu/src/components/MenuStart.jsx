@@ -6,7 +6,7 @@ const MenuStart = () => {
         <div className="menustart-container">
             <ul>
                 <li>
-                    <a href="/">Inicio</a>
+                    <a href="/Start/DeliveryService">Inicio</a>
                 </li>
                 <li>
                     <a href="/">Domicilio</a>

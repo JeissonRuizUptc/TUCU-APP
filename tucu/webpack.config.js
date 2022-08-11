@@ -49,13 +49,7 @@ module.exports = {
                     "sass-loader",
                 ]
             },
-            {
-                test: /\.css$/i,
-                use: [
-                    "style-loader",
-                    "css-loader",
-                ]
-            },
+
             {
                 test: /\.(|eot|ttf|woff|woff2|png|jpg|gif|svg)$/i,
                type:'asset'
