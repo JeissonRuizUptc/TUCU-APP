@@ -6,13 +6,13 @@ const MenuStart = () => {
         <div className="menustart-container">
             <ul>
                 <li>
-                    <a href="/Start/DeliveryService">Inicio</a>
+                    <a href="/Start">Inicio</a>
                 </li>
                 <li>
-                    <a href="/">Domicilio</a>
+                    <a href="/Start">Domicilio</a>
                 </li>
                 <li>
-                    <a href="/">Seguimiento</a>
+                    <a href="/Start/Map">Seguimiento</a>
                 </li>
             </ul>
         </div>

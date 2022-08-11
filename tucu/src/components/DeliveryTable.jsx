@@ -21,7 +21,7 @@ const DeliveryTable = () => {
         { nDomicilio: 1 , hSolicitud:  today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds() ,
         tPreparacion: "10 minutos", tMora: "0 minutos", nDomicilario: "Andres Perez", direccion: "Diagonal 38#10-2", seguimiento: <ButtonModel textButton={'Seguir'} typeButton={'warning'}/>, cancelamiento: <ButtonModel textButton={'cancelar'} typeButton={'light'}/> },
         { nDomicilio: 1 , hSolicitud:  today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds() ,
-        tPreparacion: "10 minutos", tMora: "0 minutos", nDomicilario: "Andres Perez", direccion: "Cra 1a #7este-45", seguimiento: <ButtonModel textButton={'Seguir'} typeButton={'warning'}/>, cancelamiento: <ButtonModel textButton={'cancelar'} typeButton={'light'}/> }
+        tPreparacion: "10 minutos", tMora: "0 minutos", nDomicilario: "Andres Perez", direccion: "Cra 1a #7este-45", seguimiento: <ButtonModel textButton={'Seguir'} typeButton={'warning'}/>, cancelamiento: <ButtonModel  textButton={'cancelar'} typeButton={'light'}/> }
         
     ]
 

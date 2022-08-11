@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import Login from "../pages/Login";
 import Start from "../pages/Start";
+import StartMap from "../pages/StartMap";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Login" element={<Login/>} />
           <Route exact path="/Start" element={<Start/>} />
+          <Route exact path="/Start/Map" element={<StartMap/>} />
           <Route exact path="/NotFound" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

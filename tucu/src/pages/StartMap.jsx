@@ -18,10 +18,9 @@ const Start = () => {
             <div className="body-components">
                 <MenuStart />
                 <div className="services">
-                    
                     <div className="map service">
-                        <DeliveryFilter/>
-                        <DeliveryTable />
+                        <MapService/>
+                        <MapTable />
                     </div>
                 </div>
             </div>

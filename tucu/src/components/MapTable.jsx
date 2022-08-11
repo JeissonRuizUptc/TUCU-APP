@@ -10,9 +10,9 @@ const MapTable = () => {
     const data = [
         { nDomiciliario: 'N°' , distancia:  'Cliente' , tTotal: "Direccion entrega", entregas: "Hora del servicio",
          proceso: "Valor total" },    
-         { nDomiciliario: '1' , distancia:  'Andres Gonzales' , tTotal: "Carrera 9#4-22", entregas: "10:45 am",
+         { nDomiciliario: '1' , distancia:  'Mauricio Gimenez' , tTotal: "Carrera 9#4-22", entregas: "10:45 am",
          proceso: "$22500" },
-         { nDomiciliario: '2' , distancia:  'Andres Gonzales' , tTotal: "Carrera 9#4-22", entregas: "10:45 am",
+         { nDomiciliario: '2' , distancia:  'Andres Gonzales' , tTotal: "Dg 38 #10-2, Tunja", entregas: "11:50 am",
          proceso: "$22500" },
          { nDomiciliario: '3' , distancia:  'Andres Gonzales' , tTotal: "Carrera 9#4-22", entregas: "10:45 am",
          proceso: "$22500" }    
